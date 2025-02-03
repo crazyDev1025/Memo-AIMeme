@@ -4,7 +4,7 @@ import Introduction from './Introduction'
 
 const Heropage = () => {
     return (
-        <div className=' overflow-hidden'>
+        <div id='home' className=' overflow-hidden'>
             <div className='flex lg:flex-row flex-col lg:h-[100vh] px-[6%] items-center justify-center relative'>
 
                 <div className='flex lg:flex-row flex-col w-full items-center'>

@@ -15,7 +15,7 @@ const Utility = () => {
                 </div>
             </div>
 
-            <div className='flex flex-col items-center justify-center lg:mt-[10%] md:mt-[20%] mt-[50%] relative'>
+            <div id='buy' className='flex flex-col items-center justify-center lg:mt-[10%] md:mt-[20%] mt-[50%] relative'>
                 <Image src={"/Images/line.svg"} className='absolute top-[-20%] lg:block md:hidden block left-0 z-[500]' width={1046} height={307} alt='' />
                 <Image src={"/Images/Ellipse22.svg"} className='absolute lg:block hidden top-[-30%] right-0 z-[500]' width={346} height={307} alt='' />
 
@@ -60,13 +60,13 @@ const Utility = () => {
                 <Image src={"/Images/3.svg"} className='absolute lg:block hidden right-[40px]' width={233} height={132} alt='' />
                 <Image src={"/Images/Ellipse 7.svg"} className='absolute lg:block hidden top-[-60%] left-0 z-[500]' width={346} height={307} alt='' />
 
-                <div className='flex lg:flex-row flex-col justify-between items-center text-white w-full'>
+                <div id='tokenomics' className='flex lg:flex-row flex-col justify-between items-center text-white w-full'>
                     <div className='flex flex-col gap-6 monda lg:text-[35px] text-[20px] z-[500]'>
                         <p className='freeman font-bold lg:text-[70px] text-[50px]'>Tokenomics</p>
                         <p className='text-white'><span className='font-bold'>Total Supply:</span> Fixed token quantity.</p>
                         <p className='text-white'><span className='font-bold'>Burn Mechanism: </span> Tokens burned per <br /> transaction, increasing scarcity.</p>
                         <p className='text-white'><span className='font-bold'>Community-Driven: </span> Relies on active <br /> participation and meme culture.</p>
-                        <button className='w-[206px] h-[79px] monda'>Learn More</button>
+                        <button className='w-[206px] h-[79px] bg-[#66974C] rounded-[12px] monda'>Learn More</button>
                     </div>
                     <Image src={"/Images/last.svg"} className='' width={588} height={593} alt='' />
                 </div>

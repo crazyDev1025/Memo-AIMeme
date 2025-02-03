@@ -3,7 +3,7 @@ import React from 'react'
 
 const Introduction = () => {
     return (
-        <div className='px-[7%] flex lg:flex-row flex-col items-center lg:justify-between justify-center  w-full py-[4%]'>
+        <div id='about' className='px-[7%] flex lg:flex-row flex-col items-center lg:justify-between justify-center  w-full py-[4%]'>
             <div className='w-full lg:block hidden'>
                 <Image src={"/Images/intro-im.svg"} className='z-[4000] relative' width={513} height={513} alt='' />
                 <div className='leave absolute'>

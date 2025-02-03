@@ -3,7 +3,7 @@ import React from 'react'
 
 const Roadmap = () => {
     return (
-        <div className='flex flex-col w-full '>
+        <div id='roadmap' className='flex flex-col w-full '>
             <Image src={"/Images/line.svg"} className='absolute top-[190%] z-[500]' width={1046} height={307} alt='' />
             <div className='w-full bg-[#66974C] lg:px-0 px-[8%] lg:h-[120vh] pt-[4%] pb-[6%] relative'>
                 <div className='flex items-center justify-center flex-col gap-4'>

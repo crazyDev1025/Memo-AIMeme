@@ -1,6 +1,7 @@
 
 'use client'
 import Image from 'next/image'
+import Link from 'next/link'
 import React, { useState } from 'react'
 import { FiMenu, FiX } from 'react-icons/fi'
 
@@ -9,10 +10,10 @@ const Navigation = () => {
     const [menuOpen, setMenuOpen] = useState(false)
 
     const navs = [
-        { title: "Home", act: 'home' },
-        { title: "About", act: 'about' },
-        { title: "Roadmap", act: 'roadmap' },
-        { title: "Tokenomics", act: 'token' },
+        { title: "Home", act: 'home', link: "#home" },
+        { title: "About", act: 'about', link: "#about" },
+        { title: "Roadmap", act: 'roadmap', link: "#roadmap" },
+        { title: "Tokenomics", act: 'token', link: "#tokenomics" },
     ]
 
     return (
@@ -28,20 +29,20 @@ const Navigation = () => {
             {/* Navigation Links (Desktop) */}
             <div className='hidden lg:flex flex-row items-center gap-[20px]'>
                 {navs.map((item, index) => (
-                    <div
+                    <Link href={item.link}
                         key={index}
                         className={`text-[18px] lg:text-[22px] font-bold text-white cursor-pointer transition-colors ${active === item.act ? "text-[#B8DB1D]" : "hover:text-gray-400"}`}
                         onClick={() => setActive(item.act)}
                     >
                         {item.title}
-                    </div>
+                    </Link>
                 ))}
             </div>
 
             {/* Buy Now Button (Always Visible) */}
-            <button className='hidden lg:flex bg-[#66974C] px-5 py-3 rounded-[9px] text-white font-bold text-lg'>
+            <Link href={"#buy"} className='hidden lg:flex bg-[#66974C] px-5 py-3 rounded-[9px] text-white font-bold text-lg'>
                 Buy Now
-            </button>
+            </Link>
 
             {/* Mobile Menu */}
             {menuOpen && (
