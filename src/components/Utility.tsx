@@ -3,7 +3,7 @@ import React from 'react'
 
 const Utility = () => {
     return (
-        <div className='w-full mb-[10%]'>
+        <div className='w-full mb-[10%] relative'>
             <div className='px-[7%] flex lg:flex-row flex-col  items-center justify-between w-full py-[4%]'>
                 <div className='w-full'>
                     <p className='text-[65px] font-bold freeman text-white'>No Utility, Just Memes</p>
@@ -15,7 +15,9 @@ const Utility = () => {
                 </div>
             </div>
 
-            <div className='flex flex-col items-center justify-center mt-[10%]'>
+            <div className='flex flex-col items-center justify-center mt-[10%] relative'>
+                <Image src={"/Images/line.svg"} className='absolute top-[-20%] left-0 z-[500]' width={1046} height={307} alt='' />
+
                 <p className='text-[70px] font-bold freeman text-white'>How to Buy?</p>
                 <p className='text-center text-[35px] text-white leading-[57px] monda'>Here are the steps to buy AI Pepe in <br /> simple points</p>
                 <div className='lg:mt-[20%] flex'>
@@ -52,6 +54,7 @@ const Utility = () => {
                 </div>
             </div>
             <div className='flex w-full px-[8%] mt-[35rem] relative'>
+                <Image src={"/Images/line.svg"} className='absolute top-[-40%] left-0 z-[500]' width={1046} height={307} alt='' />
                 <Image src={"/Images/buyfrog1.svg"} className='absolute rotate-[-14.2] right-[50%] top-[-60px]' width={233} height={132} alt='' />
                 <Image src={"/Images/3.svg"} className='absolute  right-[40px]' width={233} height={132} alt='' />
 
