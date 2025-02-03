@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Lexend:wght@100..900&family=Monda:wght@400..700&family=Paytone+One&family=Phetsarath:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+.freeman {
+  font-family: "Freeman", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.monda {
+  font-family: "Monda", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.bg {
+  background: linear-gradient(96.79deg, #66974C -62.94%, #66974C -62.92%, rgba(102, 151, 76, 0.05) 54.42%, #66974C 174.24%);
+}
+
+.leave {
+  box-sizing: border-box;
+
+  width: 318.12px;
+  height: 426.41px;
+  left: 200.98px;
+  top: 997px;
+  background: #6A9A51;
+  z-index: 10;
+
+  border: 3px solid #0D2912;
+  border-radius: 267.5px 0px;
+  transform: rotate(42.13deg);
+}
+
+.roadmap {
+
+  background: linear-gradient(98.27deg, #20672C -9.21%, #20672C -9.2%, rgba(32, 103, 44, 0.52) 46.61%, #20672C 103.61%);
+  border-radius: 16px;
+}
+
+.cards {
+
+  background: linear-gradient(96.79deg, #66974C -62.94%, #66974C -62.92%, rgba(102, 151, 76, 0.05) 54.42%, #66974C 174.24%);
+  border-radius: 16px;
+
+}
