@@ -9,7 +9,7 @@ const Utility = () => {
                     <p className='lg:text-[65px] text-[50px] font-bold freeman text-white'>No Utility, Just Memes</p>
                     <p className='monda lg:text-[22px] text-[20px] text-white text-justify lg:w-[80%]'>Similar to meme coins, the value we create comes not from practical use, but from the laughs and connections we build along the way. AI Pepe Meme thrives in the space where viral culture takes center stage, powered by your creativity and humor.</p>
                 </div>
-                <div className=' w-full flex justify-end'>
+                <div className=' w-full flex lg:justify-end justify-center'>
                     <Image src={"/Images/utility.png"} className='' width={513} height={513} alt='' />
 
                 </div>
@@ -59,7 +59,6 @@ const Utility = () => {
                 <Image src={"/Images/buyfrog1.svg"} className='absolute lg:block hidden rotate-[-14.2] right-[50%] top-[-60px]' width={233} height={132} alt='' />
                 <Image src={"/Images/3.svg"} className='absolute lg:block hidden right-[40px]' width={233} height={132} alt='' />
                 <Image src={"/Images/Ellipse 7.svg"} className='absolute lg:block hidden top-[-60%] left-0 z-[500]' width={346} height={307} alt='' />
-
 
                 <div className='flex lg:flex-row flex-col justify-between items-center text-white w-full'>
                     <div className='flex flex-col gap-6 monda lg:text-[35px] text-[20px] z-[500]'>
