@@ -17,6 +17,7 @@ const Utility = () => {
 
             <div className='flex flex-col items-center justify-center mt-[10%] relative'>
                 <Image src={"/Images/line.svg"} className='absolute top-[-20%] left-0 z-[500]' width={1046} height={307} alt='' />
+                <Image src={"/Images/Ellipse22.svg"} className='absolute top-[-30%] right-0 z-[500]' width={346} height={307} alt='' />
 
                 <p className='text-[70px] font-bold freeman text-white'>How to Buy?</p>
                 <p className='text-center text-[35px] text-white leading-[57px] monda'>Here are the steps to buy AI Pepe in <br /> simple points</p>
@@ -57,6 +58,8 @@ const Utility = () => {
                 <Image src={"/Images/line.svg"} className='absolute top-[-40%] left-0 z-[500]' width={1046} height={307} alt='' />
                 <Image src={"/Images/buyfrog1.svg"} className='absolute rotate-[-14.2] right-[50%] top-[-60px]' width={233} height={132} alt='' />
                 <Image src={"/Images/3.svg"} className='absolute  right-[40px]' width={233} height={132} alt='' />
+                <Image src={"/Images/Ellipse 7.svg"} className='absolute top-[-60%] left-0 z-[500]' width={346} height={307} alt='' />
+
 
                 <div className='flex flex-row justify-between items-center text-white w-full'>
                     <div className='flex flex-col gap-6 monda text-[35px]'>
