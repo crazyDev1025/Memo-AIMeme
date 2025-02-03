@@ -15,8 +15,8 @@ const Utility = () => {
                 </div>
             </div>
 
-            <div className='flex flex-col items-center justify-center lg:mt-[10%] mt-[50%] relative'>
-                <Image src={"/Images/line.svg"} className='absolute top-[-20%] left-0 z-[500]' width={1046} height={307} alt='' />
+            <div className='flex flex-col items-center justify-center lg:mt-[10%] md:mt-[20%] mt-[50%] relative'>
+                <Image src={"/Images/line.svg"} className='absolute top-[-20%] lg:block md:hidden block left-0 z-[500]' width={1046} height={307} alt='' />
                 <Image src={"/Images/Ellipse22.svg"} className='absolute lg:block hidden top-[-30%] right-0 z-[500]' width={346} height={307} alt='' />
 
                 <p className='lg:text-[70px] text-[50px] font-bold freeman text-white'>How to Buy?</p>

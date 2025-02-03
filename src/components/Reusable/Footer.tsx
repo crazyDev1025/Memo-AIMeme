@@ -17,7 +17,7 @@ const Footer = () => {
                 <Image src={"/Images/footerpepe.svg"} className='absolute lg:block hidden left-3 bottom-[-30px]' width={300} height={300} alt='' />
             </div>
             <div className='h-[10vh] flex items-center justify-center '>
-                <p className='text-white text-[27px] monda'>©Aipepe2025. All Rights Reserved.</p>
+                <p className='text-white lg:text-[27px] monda'>©Aipepe2025. All Rights Reserved.</p>
             </div>
         </div>
     )
