@@ -7,7 +7,7 @@ import Utility from "@/components/Utility";
 
 export default function Home() {
   return (
-    <div>
+    <div className="">
       <Navigation />
       <Heropage />
       <Roadmap />

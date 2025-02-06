@@ -59,7 +59,6 @@ const Utility = () => {
                 <Image src={"/Images/buyfrog1.svg"} className='absolute lg:block hidden rotate-[-14.2] right-[50%] top-[-60px]' width={233} height={132} alt='' />
                 <Image src={"/Images/3.svg"} className='absolute lg:block hidden right-[40px]' width={233} height={132} alt='' />
                 <Image src={"/Images/Ellipse 7.svg"} className='absolute lg:block hidden top-[-60%] left-0 z-[500]' width={346} height={307} alt='' />
-
                 <div id='tokenomics' className='flex lg:flex-row flex-col justify-between items-center text-white w-full'>
                     <div className='flex flex-col gap-6 monda lg:text-[35px] text-[20px] z-[500]'>
                         <p className='freeman font-bold lg:text-[70px] text-[50px]'>Tokenomics</p>
